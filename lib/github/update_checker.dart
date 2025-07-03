@@ -10,7 +10,7 @@ class UpdateChecker {
   static Future<String?> checkForUpdate() async {
     try {
       final response = await Dio().get(
-          "https://api.github.com/repos/YarosMallorca/DJI-Mapper/releases");
+          "https://api.github.com/repos/Xcellentshop/evolution-mapper/releases");
       final String latestVersion = response.data[0]["tag_name"];
       final currentVersion =
           await PackageInfo.fromPlatform().then((value) => value.version);

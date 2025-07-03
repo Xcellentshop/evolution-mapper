@@ -120,7 +120,7 @@ class _HomeLayoutState extends State<HomeLayout> with TickerProviderStateMixin {
                                 child: Text(AppLocalizations.of(context)!.download),
                                 onPressed: () {
                                   launchUrl(Uri.https("github.com",
-                                      "YarosMallorca/DJI-Mapper/releases/latest"));
+                                      "Xcellentshop/evolution-mapper/releases/latest"));
                                   Navigator.pop(context);
                                 })
                           ],
@@ -272,7 +272,7 @@ class _HomeLayoutState extends State<HomeLayout> with TickerProviderStateMixin {
                     urlTemplate: _selectedMapLayer == MapLayer.streets
                         ? 'https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}'
                         : 'https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}',
-                    userAgentPackageName: 'com.yarosfpv.dji_mapper',
+                    userAgentPackageName: 'com.xcellentshop.evolution_mapper',
                     subdomains: const ['mt0', 'mt1', 'mt2', 'mt3']),
                 PolygonLayer(polygons: [
                   if (listenables.polygon.length > 1)
