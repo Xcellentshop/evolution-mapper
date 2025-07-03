@@ -3,7 +3,7 @@
 Sistema multiplataforma para planejamento e criação de missões automáticas de levantamento/fotogrametria para drones DJI e Litchi!
 
 <div>
-<img src="https://github.com/user-attachments/assets/127ec817-1c62-4cfb-a5d2-a6c1801238a4" height="300px" />
+<img src="https://raw.githubusercontent.com/Xcellentshop/evolution-mapper/refs/heads/main/primeira%20tela.png" height="300px" />
 <img src="https://github.com/user-attachments/assets/7ba5ac8f-bac7-4c4c-9671-a2c3f7f0207d" height="300px" />
 <img src="https://github.com/user-attachments/assets/f94518bd-5776-42d5-9dc5-267a274b919b" height="250px" />
 </div>
