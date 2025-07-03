@@ -1,0 +1,143 @@
+{
+  "@@locale": "en",
+  "appTitle": "DJI Mapper",
+  "theme": "Theme",
+  "github": "GitHub",
+  "helpLoadingMission": "Help loading mission",
+  "dji": "DJI",
+  "litchi": "Litchi",
+  "updateAvailable": "Update available",
+  "later": "Later",
+  "ignoreThisVersion": "Ignore this version",
+  "download": "Download",
+  "searchLocation": "Search location",
+  "info": "Info",
+  "aircraft": "Aircraft",
+  "camera": "Camera",
+  "file": "File",
+  "createPhotoPoints": "Create Photo Points",
+  "showPhotoPoints": "Show Photo Points",
+  "showWaypoints": "Show Waypoints",
+  "fillGrid": "Fill Grid",
+  "numberOfPhotos": "Number of photos: {count}",
+  "@numberOfPhotos": {
+    "description": "Number of photos with count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "numberOfWaypoints": "Number of waypoints: {count}",
+  "@numberOfWaypoints": {
+    "description": "Number of waypoints with count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "flightDistance": "Flight distance: {distance} m",
+  "@flightDistance": {
+    "description": "Flight distance with value",
+    "placeholders": {
+      "distance": {
+        "type": "int"
+      }
+    }
+  },
+  "area": "Area: {area} m²",
+  "@area": {
+    "description": "Area with value",
+    "placeholders": {
+      "area": {
+        "type": "int"
+      }
+    }
+  },
+  "estimatedFlightTime": "Estimated flight time: {time} minutes",
+  "@estimatedFlightTime": {
+    "description": "Estimated flight time with value",
+    "placeholders": {
+      "time": {
+        "type": "int"
+      }
+    }
+  },
+  "recommendedShutterSpeed": "Recommended shutter speed: {speed} or faster",
+  "@recommendedShutterSpeed": {
+    "description": "Recommended shutter speed with value",
+    "placeholders": {
+      "speed": {
+        "type": "String"
+      }
+    }
+  },
+  "altitude": "Altitude (m)",
+  "speed": "Speed (m/s)",
+  "overlap": "Overlap (%)",
+  "sidelap": "Sidelap (%)",
+  "rotation": "Rotation (°)",
+  "cameraAngle": "Camera angle (deg)",
+  "delayAtWaypoint": "Delay at Waypoint (sec)",
+  "onFinished": "On Finished:",
+  "hover": "Hover",
+  "rth": "RTH",
+  "land": "Land",
+  "goToFirstWaypoint": "Go to first waypoint",
+  "onRcLost": "On RC Lost:",
+  "cameraPreset": "Camera Preset:",
+  "presetTitle": "Preset Title",
+  "cancel": "Cancel",
+  "save": "Save",
+  "add": "Add",
+  "delete": "Delete",
+  "sensorWidth": "Sensor Width (mm)",
+  "sensorHeight": "Sensor Height (mm)",
+  "focalLength": "Focal Length (mm)",
+  "imageWidth": "Image Width (px)",
+  "imageHeight": "Image Height (px)",
+  "saveAsDjiFlyWaypointMission": "Save as DJI Fly Waypoint Mission",
+  "saveAsLitchiMission": "Save as Litchi Mission",
+  "importExportMappingArea": "Import/Export Mapping Area",
+  "importFromKml": "Import from KML",
+  "exportToKml": "Export to KML",
+  "selectPolygon": "Select Polygon",
+  "load": "Load",
+  "missionExportCancelled": "Mission export cancelled",
+  "missionExportedSuccessfully": "Mission exported successfully",
+  "areaImportedSuccessfully": "Area imported successfully",
+  "areaExportCancelled": "Area export cancelled",
+  "areaExportedSuccessfully": "Area exported successfully",
+  "noWaypointsToExport": "No waypoints to export. Please add waypoints first",
+  "noFileSelected": "No file selected. Import cancelled",
+  "noPolygonsFound": "No polygons found in KML. Import cancelled",
+  "loadMissionIntoDjiFly": "Load mission into DJI Fly",
+  "loadMissionIntoLitchi": "Load mission into Litchi",
+  "step1": "Step 1",
+  "step2": "Step 2",
+  "step3": "Step 3",
+  "step4": "Step 4",
+  "done": "Done",
+  "doNotShowThisAgain": "Do not show this again",
+  "exportYourSurveyMission": "Export your Survey Mission",
+  "importExportMappingAreaTitle": "Import/Export Mapping Area",
+  "openDjiFly": "Open DJI Fly",
+  "quitDjiFly": "Quit DJI Fly",
+  "createNewMission": "Create a new Mission [simple as 1wp] and save",
+  "recentDateStamp": "This will give it a recent date stamp making it easier to find & select",
+  "iosPath": "iOS - Goto FILES/DJI Fly/wayline_mission/",
+  "androidPath": "Android/DJI RC = Goto Android/data/dji.go.v5/files/waypoint",
+  "selectMissionFolder": "Select most recently created Mission Folder by date/time",
+  "guidExample": "Its name will be in the form of a GUID. Example: 6103D3C8-E79A-4B48-BBFE-50932D2E1306",
+  "renameKmzFile": "Rename KMZ file that your importing to match the name of this mission on your device.",
+  "guidExample2": "Example: 6103D3C8-E79A-4B48-BBFE-50932D2E1306.kmz",
+  "uploadRenamedKmz": "Upload the renamed KMZ into selected mission folder on your device replacing existing KMZ",
+  "selectUploadedMission": "Select the mission you just uploaded, should be on the top of the list",
+  "examineWaypoints": "Examine all waypoints before you Fly to be sure they are configured as expected.",
+  "doNotModifyMission": "Do not modify or save the mission from inside DJI Fly, because it doesn't support straight curves, and will break the mission.",
+  "setSettingsCorrectly": "Set the settings correctly, highlighted in blue are the important settings.",
+  "finishActionSame": "The Finish Action should be set the same as in the DJI Mapper",
+  "clickMissionsImport": "Click on the 'Missions -> Import' and select the mission file.",
+  "saveMissionName": "Save the mission with a name and it will automatically sync to your device."
+} 

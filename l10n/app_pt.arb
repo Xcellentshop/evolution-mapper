@@ -1,0 +1,143 @@
+{
+  "@@locale": "pt",
+  "appTitle": "DJI Mapper",
+  "theme": "Tema",
+  "github": "GitHub",
+  "helpLoadingMission": "Ajuda para carregar missão",
+  "dji": "DJI",
+  "litchi": "Litchi",
+  "updateAvailable": "Atualização disponível",
+  "later": "Depois",
+  "ignoreThisVersion": "Ignorar esta versão",
+  "download": "Baixar",
+  "searchLocation": "Buscar localização",
+  "info": "Informações",
+  "aircraft": "Aeronave",
+  "camera": "Câmera",
+  "file": "Arquivo",
+  "createPhotoPoints": "Criar Pontos de Foto",
+  "showPhotoPoints": "Mostrar Pontos de Foto",
+  "showWaypoints": "Mostrar Pontos de Passagem",
+  "fillGrid": "Preencher Grade",
+  "numberOfPhotos": "Número de fotos: {count}",
+  "@numberOfPhotos": {
+    "description": "Número de fotos com contagem",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "numberOfWaypoints": "Número de pontos de passagem: {count}",
+  "@numberOfWaypoints": {
+    "description": "Número de pontos de passagem com contagem",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "flightDistance": "Distância de voo: {distance} m",
+  "@flightDistance": {
+    "description": "Distância de voo com valor",
+    "placeholders": {
+      "distance": {
+        "type": "int"
+      }
+    }
+  },
+  "area": "Área: {area} m²",
+  "@area": {
+    "description": "Área com valor",
+    "placeholders": {
+      "area": {
+        "type": "int"
+      }
+    }
+  },
+  "estimatedFlightTime": "Tempo de voo estimado: {time} minutos",
+  "@estimatedFlightTime": {
+    "description": "Tempo de voo estimado com valor",
+    "placeholders": {
+      "time": {
+        "type": "int"
+      }
+    }
+  },
+  "recommendedShutterSpeed": "Velocidade do obturador recomendada: {speed} ou mais rápida",
+  "@recommendedShutterSpeed": {
+    "description": "Velocidade do obturador recomendada com valor",
+    "placeholders": {
+      "speed": {
+        "type": "String"
+      }
+    }
+  },
+  "altitude": "Altitude (m)",
+  "speed": "Velocidade (m/s)",
+  "overlap": "Sobreposição (%)",
+  "sidelap": "Sobreposição Lateral (%)",
+  "rotation": "Rotação (°)",
+  "cameraAngle": "Ângulo da câmera (graus)",
+  "delayAtWaypoint": "Atraso no Ponto de Passagem (seg)",
+  "onFinished": "Ao Finalizar:",
+  "hover": "Pairar",
+  "rth": "RTH",
+  "land": "Pousar",
+  "goToFirstWaypoint": "Ir para primeiro ponto de passagem",
+  "onRcLost": "Ao Perder RC:",
+  "cameraPreset": "Preset da Câmera:",
+  "presetTitle": "Título do Preset",
+  "cancel": "Cancelar",
+  "save": "Salvar",
+  "add": "Adicionar",
+  "delete": "Excluir",
+  "sensorWidth": "Largura do Sensor (mm)",
+  "sensorHeight": "Altura do Sensor (mm)",
+  "focalLength": "Distância Focal (mm)",
+  "imageWidth": "Largura da Imagem (px)",
+  "imageHeight": "Altura da Imagem (px)",
+  "saveAsDjiFlyWaypointMission": "Salvar como Missão de Pontos de Passagem DJI Fly",
+  "saveAsLitchiMission": "Salvar como Missão Litchi",
+  "importExportMappingArea": "Importar/Exportar Área de Mapeamento",
+  "importFromKml": "Importar do KML",
+  "exportToKml": "Exportar para KML",
+  "selectPolygon": "Selecionar Polígono",
+  "load": "Carregar",
+  "missionExportCancelled": "Exportação da missão cancelada",
+  "missionExportedSuccessfully": "Missão exportada com sucesso",
+  "areaImportedSuccessfully": "Área importada com sucesso",
+  "areaExportCancelled": "Exportação da área cancelada",
+  "areaExportedSuccessfully": "Área exportada com sucesso",
+  "noWaypointsToExport": "Nenhum ponto de passagem para exportar. Adicione pontos de passagem primeiro",
+  "noFileSelected": "Nenhum arquivo selecionado. Importação cancelada",
+  "noPolygonsFound": "Nenhum polígono encontrado no KML. Importação cancelada",
+  "loadMissionIntoDjiFly": "Carregar missão no DJI Fly",
+  "loadMissionIntoLitchi": "Carregar missão no Litchi",
+  "step1": "Passo 1",
+  "step2": "Passo 2",
+  "step3": "Passo 3",
+  "step4": "Passo 4",
+  "done": "Concluído",
+  "doNotShowThisAgain": "Não mostrar novamente",
+  "exportYourSurveyMission": "Exportar sua Missão de Levantamento",
+  "importExportMappingAreaTitle": "Importar/Exportar Área de Mapeamento",
+  "openDjiFly": "Abrir DJI Fly",
+  "quitDjiFly": "Sair do DJI Fly",
+  "createNewMission": "Criar uma nova Missão [simples como 1wp] e salvar",
+  "recentDateStamp": "Isso dará um carimbo de data recente facilitando a busca e seleção",
+  "iosPath": "iOS - Vá para ARQUIVOS/DJI Fly/wayline_mission/",
+  "androidPath": "Android/DJI RC = Vá para Android/data/dji.go.v5/files/waypoint",
+  "selectMissionFolder": "Selecione a pasta de missão criada mais recentemente por data/hora",
+  "guidExample": "Seu nome será na forma de um GUID. Exemplo: 6103D3C8-E79A-4B48-BBFE-50932D2E1306",
+  "renameKmzFile": "Renomeie o arquivo KMZ que você está importando para corresponder ao nome desta missão no seu dispositivo.",
+  "guidExample2": "Exemplo: 6103D3C8-E79A-4B48-BBFE-50932D2E1306.kmz",
+  "uploadRenamedKmz": "Faça upload do KMZ renomeado na pasta da missão selecionada no seu dispositivo substituindo o KMZ existente",
+  "selectUploadedMission": "Selecione a missão que você acabou de fazer upload, deve estar no topo da lista",
+  "examineWaypoints": "Examine todos os pontos de passagem antes de voar para ter certeza de que estão configurados conforme esperado.",
+  "doNotModifyMission": "Não modifique ou salve a missão de dentro do DJI Fly, porque ele não suporta curvas retas e quebrará a missão.",
+  "setSettingsCorrectly": "Configure as configurações corretamente, destacadas em azul são as configurações importantes.",
+  "finishActionSame": "A Ação de Finalização deve ser definida igual ao DJI Mapper",
+  "clickMissionsImport": "Clique em 'Missões -> Importar' e selecione o arquivo da missão.",
+  "saveMissionName": "Salve a missão com um nome e ela será sincronizada automaticamente com seu dispositivo."
+} 
